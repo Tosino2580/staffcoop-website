@@ -33,7 +33,7 @@ export default function App() {
           </div>
 
           {/* Support & Contact Hotline */}
-          {/* <div className="flex items-center space-x-3 text-right z-10">
+          <div className="flex items-center space-x-3 text-right z-10">
             <div className="bg-sky-50 p-2.5 rounded-2xl text-brand-blue hidden md:flex items-center justify-center shadow-inner">
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -44,14 +44,21 @@ export default function App() {
                 Need Assistance?
               </span>
               <a
-                href="tel:1-866-908-3442"
-                className="block text-sm sm:text-base font-extrabold text-slate-800 hover:text-brand-blue transition-colors duration-200"
-                aria-label="Call support hotline"
+                href="tel:08166010254"
+                className="block text-xs sm:text-sm font-extrabold text-slate-800 hover:text-brand-blue transition-colors duration-200"
+                aria-label="Call customer careline 08166010254"
               >
-                1-866-908-3442
+                08166010254
+              </a>
+              <a
+                href="tel:08099915700"
+                className="block text-xs sm:text-sm font-extrabold text-slate-800 hover:text-brand-blue transition-colors duration-200"
+                aria-label="Call customer careline 08099915700"
+              >
+                08099915700
               </a>
             </div>
-          </div> */}
+          </div>
 
         </div>
       </header>
